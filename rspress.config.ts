@@ -5,7 +5,7 @@ export default defineConfig({
     root: path.join(__dirname, "docs"),
     base: "/nikdevisfun-blog",
     title: "NikDevIsFun",
-    description: "tech & life",
+    description: "Code · Life · Design",
     icon: "/rspress-icon.png",
     logo: {
         light: "/rspress-light-logo.png",
@@ -13,16 +13,26 @@ export default defineConfig({
     },
     themeConfig: {
         nav: [
-            { text: "Blog", link: "/" },
-            { text: "Github", link: "http://github.com/nikdevisfun" },
+            { text: "Blog", link: "/blog" },
+            { text: "Tags", link: "/tags" },
+            { text: "Category", link: "/category" },
         ],
 
         socialLinks: [
             {
                 icon: "github",
                 mode: "link",
-                content: "https://github.com/web-infra-dev/rspress",
+                content: "https://github.com/nikdevisfun/nikdevisfun-blog",
             },
         ],
     },
+    // globalUIComponents: [
+    //     [
+    //         path.join(__dirname, 'components', 'HelloWorld.tsx'),
+    //         {
+    //             foo: 'bar'
+    //         }
+    //     ]
+    // ]
+    globalStyles: path.join(__dirname, "styles/index.css"),
 });
