@@ -1,5 +1,5 @@
 root = true
 
-[*.{js,ts,json,css}]
+[*.{js,ts,tsx,json,css}]
 indent_size = 4
 
