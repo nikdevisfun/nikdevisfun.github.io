@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: /blog/
+      link: /posts/
   image:
     src: /rspress-icon.png
     alt: Logo

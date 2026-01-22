@@ -15,12 +15,12 @@ git add -A
 git commit -m "deployed at $time"
 
 # push the code to github
-git push -f git@github.com:nikdevisfun/nikdevisfun-blog.git master:gh-pages
+git push -f git@github.com:nikdevisfun/nikdevisfun.github.io.git master:gh-pages
 
 cd -
 rm -rf doc_build
 
-echo "repo: https://github.com/nikdevisfun/nikdevisfun-blog"
-echo "docs: https://nikdevisfun.github.io/blog"
+echo "repo: https://github.com/nikdevisfun/nikdevisfun.github.io.git"
+echo "docs: https://nikdevisfun.github.io"
 
 

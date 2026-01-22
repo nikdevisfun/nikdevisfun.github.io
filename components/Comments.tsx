@@ -3,7 +3,7 @@ import Giscus from "@giscus/react";
 export default function Comments() {
     return (
         <Giscus
-            repo="nikdevisfun/nikdevisfun-blog"
+            repo="nikdevisfun/nikdevisfun.github.io"
             repoId="R_kgDOQ-rwSw"
             category="General"
             categoryId="DIC_kwDOQ-rwS84C1Sjb"
