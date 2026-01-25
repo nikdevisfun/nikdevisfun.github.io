@@ -4,7 +4,8 @@ pageType: home
 hero:
   name: NikDevIsFun
   text: Code · Life · Design
-  tagline: Build something minimal and beautiful!
+  <!-- tagline: Build something minimal and beautiful! -->
+  tagline: Try to find something interesting
   actions:
     - theme: brand
       text: Quick Start
